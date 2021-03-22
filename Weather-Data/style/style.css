@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+body{
+    background-color:#7fc8eb;
+    background-image: url("../image/clouds-png.png");
+    background-repeat: repeat;
+    background-position:center;
+    background-size: 830px;
+    font-family:'Times New Roman', Times, serif;
+}
+header{
+    margin-top: 15px;
+    height: 40px;
+    border-top: 4px double #000;
+    border-bottom: 3px double #000;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2134de;
+}
+h1{
+    display: block;
+    font-family: 'Averia Serif Libre', cursive;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 3px #fff;
+}
+.nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-left: 3px solid #fff;
+    border-radius: 20px;
+}
+.nav__navlist{
+    border-left:3px solid #fff;
+    border-radius: 20px;
+    width:120px;
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: #f5f245;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav__navlist:first-child{
+    border-left: none;
+}
+.nav__navlist:hover{
+    font-size: 20px;
+}
+.nav__navlist--active{
+    color:#fff;
+}
+.days{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.days > * {
+    font-size: 21px;
+    font-weight: bolder;
+    letter-spacing: 2.4px;
+    text-shadow: 1px 1px 2px #b5f4ff;
+}
+.icon{
+    width: 70px;  
+}
+.icon > * {
+    margin-top: 20px;
+}
+.temperature{
+    width: 200px;
+
+}
+.temperature > *{
+    margin-top: 4px;
+}
+.time{
+    width: 350px;
+    
+}
+.time > * {
+    margin-top: 5px;
+}
+.direction{
+    width: 300px;
+}
+
+.speed{
+    width: 300px;
+}
+.detailsRow{
+    width: 120px;
+}
+.btn__Detail{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    color: #3f1d07;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+    border-radius: 6px;
+    background-color: rgba(213, 89, 227,0.45);
+    margin-top: 20px;
+    box-shadow: 10px 10px 20px rgb(12,120, 200) inset;
+}
